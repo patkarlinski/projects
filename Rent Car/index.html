@@ -1,146 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rent Car </title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-        <nav class="topbar">
-            <div class="left">
-                <span class="logo">
-                    MORENT
-                </span>
-                <span class="search">
-                    <img class="icon_search" src="public/icon/search.svg" alt="search_icon">
-                    <input type="text" id="input" placeholder="Search somtething here">
-                    <img class="icon_tune" src="public/icon/tune.svg" alt="tune">
-                </span>
+    <nav class="topbar">
+        <div class="topbar-left">
+            <span class="logo">
+                MORENT
+            </span>
+            <div class="search">
+                <img class="icon_search" src="public/icon/search.svg" alt="search_icon">
+                <input type="text" id="input" placeholder="Search somtething here">
+                <img class="icon_tune" src="public/icon/tune.svg" alt="tune">
             </div>
-            <div class="right">
-                <span class="account">
-                    <img class="icon" src="public/icon/favorite.svg" alt="favorite">
-                    <img class="icon" src="public/icon/bell.svg" alt="bell">
-                    <img class="icon" src="public/icon/settings.svg" alt="settings">
-                    <img class="icon" src="public/icon/account.svg" alt="account">
-                </span>
+        </div>
+        <div class="topbar-right">
+            <span class="account">
+                <img class="icon" src="public/icon/favorite.svg" alt="favorite">
+                <img class="icon" src="public/icon/bell.svg" alt="bell">
+                <img class="icon" src="public/icon/settings.svg" alt="settings">
+                <img class="icon" src="public/icon/account.svg" alt="account">
+            </span>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="nav-bar-side">
+            <div class="filtr-type">
+                <p>Type</p>
+                <ul>
+                    <li><input type="checkbox" checked> Sport <span>(10)</span></li>
+                    <li><input type="checkbox" checked> Suv <span>(10)</span></li>
+                    <li><input type="checkbox"> MPV <span>(10)</span></li>
+                    <li><input type="checkbox"> Sedan <span>(10)</span></li>
+                    <li><input type="checkbox"> Coupe <span>(10)</span></li>
+                    <li><input type="checkbox"> Hatchback <span>(10)</span></li>
+                </ul>
             </div>
 
-        </nav>
-        <div class="container">
-            <div class="nav-bar-side">
-                <div class="filtr_type">
-                    Type
-                    <ul>
-                        <li><input type="checkbox" checked> Sport <span>(10)</span></li>
-                        <li><input type="checkbox" checked> Suv <span>(10)</span></li>
-                        <li><input type="checkbox"> MPV <span>(10)</span></li>
-                        <li><input type="checkbox"> Sedan <span>(10)</span></li>
-                        <li><input type="checkbox"> Coupe <span>(10)</span></li>
-                        <li><input type="checkbox"> Hatchback <span>(10)</span></li>
-                    </ul>
-                </div>
-
-                <div class="fitlr_capacity">
-                    Capacity
-                   <ul>
+            <div class="fitlr-capacity">
+                <p>Capacity</p>
+                <ul>
                     <li><input type="checkbox" checked> 2 Person <span>(10)</span></li>
                     <li><input type="checkbox"> 4 Person <span>(12)</span></li>
                     <li><input type="checkbox"> 6 Person<span>(4)</span></li>
                     <li><input type="checkbox" checked> 8 Person <span>(5)</span></li>
-                   </ul>
+                </ul>
 
-                </div>
-
-                <div class="filtr_price">
-                    <input type="range" id="price" name="price" min="0" max="100000" />
-                    <label for="volume"> <p>Max price 1000$</p></label>
-                </div>
-                
             </div>
-            <div class="content">
+
+            <div class="filtr-price">
+                <input type="range" id="price" name="price" min="0" max="100000" />
+                <label for="volume">
+                    <p>Max price 1000$</p>
+                </label>
+            </div>
+
+        </div>
+        <div class="content">
+
+            <div class="content-left">
+                <div class="photo-select">
+                    zdj1
+                </div>
                 <div class="gallery">
-
-                </div>
+                    <div class="photo-mini-1">
+                        zdj2
+                    </div>
+                    <div class="photo-mini-2">
+                        zdj3
+                    </div>
+                    <div class="photo-mini-3">
+                        zdj4
+                    </div>
+    
+                </div>    
+            </div>
+            <div class="content-right">
                 <div class="cart">
-
+                CART
                 </div>
-                <div class="reviews">
-
+            </div>
+            
+            <div class="reviews">
+                Reviews
+            </div>
+            <div class="recentcar">
+                Recent Car
+                <div class="recentcar-left">
+                    a
                 </div>
-                <div class="recentcar">
-                    
+                <div class="recentcar-middle">
+                    b
                 </div>
-                 <div class="recomendcar">
+                <div class="recentcar-right">
+                    c
+                </div>
+            </div>
+            <div class="recomendcar">
 
-                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="up">
-                <div class="logoo">
-                    <span class="logo">
-                        MORENT
-                    </span>
-                    <p>
-                        Our vision is to provide convenience</p>
-                    <p>
-                        and help increase your sales busines.</p> 
+    </div>
+    <div class="footer">
+        <div class="footer-up">
+            <div class="footer-logo">
+                <span class="logo">
+                    MORENT
+                </span>
+                <p>
+                    Our vision is to provide convenience</p>
+                <p>
+                    and help increase your sales busines.</p>
+            </div>
+            <div class="links">
+                <div class="about">
+                    <h2>About</h2>
+                    <p>How it works</p>
+                    <p>Featured</p>
+                    <p>Partnership</p>
+                    <p>Bussiness Relation</p>
                 </div>
-                <div class="links">
-                    <div class="about">
-                        <h2>About</h2>
-                        <p>How it works</p>
-                        <p>Featured</p>
-                        <p>Partnership</p>
-                        <p>Bussiness Relation</p>
-                    </div>
-                    <div class="community">
-                        <h2>Community</h2>
-                        <p>
-                            Events
-                        </p>
-                        <p>
-                            Blog
-                        </p>
-                        <p>
-                            Podcast
-                        </p>
-                        <p>
-                            Invite a friend
-                        </p>
-                    </div>
-                    <div class="socials">
-                        <h2>Socials</h2>
-                        <p>
-                           Facebook
-                        </p>
-                        <p>
-                            Discord
-                        </p>
-                        <p>
-                            Instagram
-                        </p>
-                        <p>
-                            Twitter
-                        </p>
-                    </div>
+                <div class="community">
+                    <h2>Community</h2>
+                    <p>
+                        Events
+                    </p>
+                    <p>
+                        Blog
+                    </p>
+                    <p>
+                        Podcast
+                    </p>
+                    <p>
+                        Invite a friend
+                    </p>
+                </div>
+                <div class="socials">
+                    <h2>Socials</h2>
+                    <p>
+                        Facebook
+                    </p>
+                    <p>
+                        Discord
+                    </p>
+                    <p>
+                        Instagram
+                    </p>
+                    <p>
+                        Twitter
+                    </p>
                 </div>
             </div>
-            <div class="down">
-                <div class="year">
-                    ©2022 MORENT. All rights reserved
-                </div>
-                <div class="privacy">
-                    <span>
-                        Privacy & Policy
-                    </span>
-                    <span>
-                        Terms & Condition
-                    </span>
-                </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="year">
+                ©2022 MORENT. All rights reserved
             </div>
-        </footer>
+            <div class="privacy">
+                <a href="##">Privacy & Policy</a>
+                <a href="##">Terms & Condition</a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

@@ -2,50 +2,50 @@
   margin: 0;
   padding: 0;
 }
-.filtr_type {
+.filtr-type {
   margin: 20px 50px 20px 20px ;
   background-color: white;
 }
-.filtr_type ul {
+.filtr-type ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.filtr_type ul li {
+.filtr-type ul li {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
 }
-.filtr_type a {
+.filtr-type a {
   color: lightgrey;
 }
-.fitlr_capacity {
+.fitlr-capacity {
   margin: 20px 50px 20px 20px ;
   background-color: white;
 }
-.fitlr_capacity ul {
+.fitlr-capacity ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.fitlr_capacity ul li {
+.fitlr-capacity ul li {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
 }
-.fitlr_capacity ul li input {
+.fitlr-capacity ul li input {
   background-color: #3563E9;
 }
-.fitlr_capacity a {
+.fitlr-capacity a {
   color: lightgrey;
 }
-.filtr_price {
+.filtr-price {
   margin: 20px 50px 20px 20px ;
   height: 200px;
   width: auto;
   background-color: white;
 }
-.filtr_price #price {
+.filtr-price #price {
   width: 90%;
 }
 .nav-bar-side {
@@ -59,8 +59,62 @@
 .content {
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: #f6f7f9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.content .photo-select {
+  height: 300px;
+  width: 452px;
+  background-color: red;
+}
+.content .cart {
+  height: 408px;
+  width: 452px;
+  background-color: green;
+}
+.content .photo-mini-1 {
+  height: 108px;
+  width: 132px;
+  background-color: yellow;
+}
+.content .photo-mini-2 {
+  height: 108px;
+  width: 132px;
+  background-color: yellow;
+}
+.content .photo-mini-3 {
+  height: 108px;
+  width: 132px;
+  background-color: yellow;
+}
+.content .gallery {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.content .reviews {
+  width: 1000px;
+  height: 200px;
+  background-color: blue;
+  margin: 15px;
+}
+.content .recentcar {
+  width: 1000px;
+  height: 200px;
+  background-color: blue;
+  margin: 15px;
+}
+.content .recomendcar {
+  width: 1000px;
+  height: 200px;
+  background-color: blue;
+  margin: 15px;
 }
 .container {
   display: flex;
@@ -78,11 +132,11 @@
   background-color: white;
   margin: 0 auto;
 }
-.left {
+.topbar-left {
   display: flex;
   justify-content: flex-start;
 }
-.right {
+.topbar-right {
   justify-content: flex-end;
 }
 .logo {
@@ -123,14 +177,14 @@
   height: 480px;
   margin: 0 auto;
 }
-.footer .up {
+.footer .footer-up {
   display: flex;
   justify-content: space-between;
 }
-.footer .up .logoo {
+.footer .footer-up .footer-logo {
   margin: 60px;
 }
-.footer .up .links {
+.footer .footer-up .links {
   display: flex;
   justify-content: space-between;
   padding: 5px;
@@ -138,35 +192,35 @@
   margin-right: 100px;
   font-family: 'Plus Jakarta Sans';
 }
-.footer .up .links h2 {
+.footer .footer-up .links h2 {
   font-weight: 600;
   font-size: 20px;
 }
-.footer .up .links .about {
+.footer .footer-up .links .about {
   padding: 30px;
   margin: 15px;
 }
-.footer .up .links .about p {
+.footer .footer-up .links .about p {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 5px;
   color: rgba(19, 19, 19, 0.6);
 }
-.footer .up .links .community {
+.footer .footer-up .links .community {
   padding: 30px;
   margin: 15px;
 }
-.footer .up .links .community p {
+.footer .footer-up .links .community p {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 5px;
   color: rgba(19, 19, 19, 0.6);
 }
-.footer .up .links .socials {
+.footer .footer-up .links .socials {
   padding: 30px;
   margin: 15px;
 }
-.footer .up .links .socials p {
+.footer .footer-up .links .socials p {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 5px;
