@@ -193,6 +193,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 200%;
+  letter-spacing: -0.02em;
+  color: #596780;
 }
 .content .name-car-stars {
   margin-top: 2px;
@@ -202,6 +204,106 @@
 }
 .content .name-car-stars p {
   margin-left: 5px;
+}
+.content .spesification {
+  margin-top: 32px;
+  margin-left: 24px;
+  height: 72px;
+  width: 444px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content .spesification-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content .color-spesification-in {
+  color: #90A3BF;
+  font-size: 20px;
+  line-height: 150%;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+.content .color-spesification-out {
+  font-size: 20px;
+  line-height: 150%;
+  align-items: center;
+  text-align: right;
+  letter-spacing: -0.02em;
+  color: #596780;
+}
+.content .cart-spesification-in {
+  height: 28px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 22px;
+}
+.content .cart-spesification-out {
+  height: 28px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 22px;
+}
+.content #price-rent {
+  margin: 68px 0px 32px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content #price-rent button {
+  margin-right: 24px;
+  width: 140px;
+  height: 56px;
+  background: #3563E9;
+  border-radius: 4px;
+  border: white;
+  padding: 0px 20px;
+  color: white;
+}
+.content .price {
+  width: 200px;
+  height: 32px;
+}
+.content .dolars {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #1A202C;
+}
+.content .days {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  color: #90A3BF;
+}
+.content .price-line {
+  display: flex;
+  flex-direction: row;
+}
+.content .last-price {
+  width: 200px;
+  height: 20px;
+  text-decoration-line: line-through;
+  color: #90A3BF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 .content .photo-mini-1 {
   height: 120px;
