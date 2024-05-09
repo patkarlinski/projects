@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
 @color_1: #3563E9;
 @font_family_1: 'Plus Jakarta Sans';
 @background_color_1: red;
@@ -86,67 +90,107 @@
 
 
     .photo-select{
-        height: 300px;
-        width: 452px;
-        background-color: red;
+        height: 360px;
+        width: 492px;
+        margin-bottom: 24px;
     }
 
     .cart{
-        height: 408px;
-        width: 452px;
-        background-color: green;
+        height: 508px;
+        width: 492px;
+        background-color: white;
+    }
+
+    .name-car-tittle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-left: 24px;
+        img {
+            padding-right: 24px;
+        }
+       
+    }
+    .car-descripiton {
+        margin-top: 32px;
+        margin-left: 24px;
+        font-family: @font_family_1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 200%;
+    }
+    .name-car-stars{
+        margin-top: 2px;
+        margin-left: 24px;
+        display: flex;
+        flex-direction: row;
+            p {
+                margin-left: 5px;
+        }
     }
 
     .photo-mini-1{
-        height: 108px;
-        width: 132px;
-        background-color: yellow;
+        height: 120px;
+        width: 144px;
+        border: solid;
+        border-color: #3563E9;
+        border-radius: 5px;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            img {
+                height: 108px;
+                width: 132px;
+                background-color: #3563E9;
+            }
     }
     .photo-mini-2{
-        height: 108px;
-        width: 132px;
-        background-color: yellow;
+        height: 124px;
+        width: 148px;
+ 
     }
     .photo-mini-3{
-        height: 108px;
-        width: 132px;
-        background-color: yellow;
+        height: 124px;
+        width: 148px;
+   
     }
 
     .gallery{
         display: flex;
         flex-direction: row;
-        margin-top: 10px;
         justify-content: space-between;
     }
 
 
     .reviews{
-        width: 1000px;
-        height: 200px;
+        width: 1016px;
+        height: 452px;
         background-color: blue;
-        margin: 15px;
+        // margin: 15px;
     }
 
     .recentcar{
-        width: 1000px;
-        height: 200px;
+        width: 1016px;
+        height: 452px;
         background-color: blue;
-        margin: 15px;
+        // margin: 15px;
     }
 
     .recomendcar {
-        width: 1000px;
-        height: 200px;
+        width: 1016px;
+        height: 452px;
         background-color: blue;
-        margin: 15px;
+        // margin: 15px;
     }
 
 }
 .container {
 	display: flex;
 	width: 1440px;
-	height: 1300px;
+	height: 2016px;
 	margin: 0 auto;
 	background-color: @background_color_1;
 }
@@ -216,10 +260,11 @@
         padding: 5px;
         margin: 40px;
         margin-right: 100px;
-        font-family: 'Plus Jakarta Sans';
+        
         h2{
             font-weight: 600;
             font-size: 20px;
+            font-family: @font_family_1;
         }
         .about{
             padding: 30px;
@@ -260,6 +305,15 @@
 	border: 0.5px solid lightgray;
 	padding: 10px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
