@@ -155,7 +155,7 @@
   box-sizing: border-box;
 }
 .content {
-  box-sizing: border-box;
+  max-width: 1080px;
   width: 100%;
   height: auto;
   background-color: #f6f7f9;
@@ -175,6 +175,10 @@
   width: 492px;
   background-color: white;
 }
+.content .name-car {
+  width: 100%;
+  max-width: 492px;
+}
 .content .name-car-tittle {
   display: flex;
   flex-direction: row;
@@ -184,6 +188,15 @@
 }
 .content .name-car-tittle img {
   padding-right: 24px;
+}
+.content .name-car-stars {
+  margin-top: 2px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.content .name-car-stars p {
+  margin-left: 5px;
 }
 .content .car-descripiton {
   margin-top: 32px;
@@ -195,15 +208,6 @@
   line-height: 200%;
   letter-spacing: -0.02em;
   color: #596780;
-}
-.content .name-car-stars {
-  margin-top: 2px;
-  margin-left: 24px;
-  display: flex;
-  flex-direction: row;
-}
-.content .name-car-stars p {
-  margin-left: 5px;
 }
 .content .spesification {
   margin-top: 32px;
@@ -361,13 +365,14 @@
   width: 1440px;
   height: 2016px;
   margin: 0 auto;
-  background-color: red;
 }
 .topbar {
+  max-width: 1400px;
+  min-width: 1100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  width: 100%;
   height: 124px;
   background-color: white;
   margin: 0 auto;
@@ -413,7 +418,8 @@
   margin: 5px;
 }
 footer {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 480px;
   margin: 0 auto;
 }
@@ -473,6 +479,7 @@ footer .footer-up .links .socials p {
   padding: 10px;
 }
 .footer-bottom {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -505,12 +512,26 @@ footer .footer-up .links .socials p {
   margin-left: 60px;
 }
 .line {
-  width: 1320px;
+  width: 100%;
 }
 .line hr {
   border: 1px solid #d9d9d9;
   margin-left: 60px;
   width: 100%;
   left: 13px;
-  width: 1320px;
+  max-width: 1320px;
+}
+@media (max-width: 1416px) {
+  .nav-bar-side {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    flex-direction: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .line hr {
+    margin-left: 30px;
+  }
 }
