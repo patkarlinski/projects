@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -33,10 +36,17 @@ button {
     font-size: 39px;
 }
 
-.operations {
+button:hover {
+    background-color: #dad2d2;
+}
+button:active {
+    background-color: #d4d2d2;
+}
+
+.operations, .equal {
     background-color: #DF974B;
-    color: white;
     border-right: 0;
+    color: #ffffff;
 }
 
 .operations:hover {
@@ -79,8 +89,6 @@ button {
 
 .equal {
     grid-area: equal;
-    color: #ffffff;
-    background-color: #DF974B;
 }
 
 .equal:hover {
