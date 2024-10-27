@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 416px;
+    background-color: #000000;   
+}
+
+.buttons {
+    height: 514px;
+    display: grid;
+    /* justify-content: space-between; */
+    justify-self: stretch;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "clear clear delete divide"
+    "btn7 btn8 btn9 multi"
+    "btn4 btn5 btn6 subtraction"
+    "btn1 btn2 btn3 addition"
+    "btn0 btn0 btn0 equal"
+}
+
+button:nth-last-child(-n +2) {
+    border-bottom: 0;
+}
+
+button {
+    border: #000000 1px solid;
+    font-weight: 300;
+    font-size: 39px;
+}
+
+.operations {
+    background-color: #DF974B;
+    color: white;
+    border-right: 0;
+}
+
+.operations:hover {
+    background-color: #c79c6d;;
+}
+
+.operations:active {
+    background-color: #b7732b;
+}
+
+.subtraction {
+    grid-area: subtraction;
+}
+
+.summary {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 42px;
+    text-align: right;
+    line-height: 86px;
+    max-height: 85px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.clear {
+    grid-area: clear;
+}
+
+.delete {
+    grid-area: delete;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.multi {
+    grid-area: multi;
+}
+
+.equal {
+    grid-area: equal;
+    color: #ffffff;
+    background-color: #DF974B;
+}
+
+.equal:hover {
+    background-color: #c79c6d;;
+}
+
+.equal:active {
+    background-color: #b7732b;
+}
+
+.addition {
+    grid-area: addition;
+}
+
+.btn9 {
+    grid-area: btn9;
+}
+
+.btn8 {
+    grid-area: btn8;
+}
+
+.btn7 {
+    grid-area: btn7;
+}
+
+.btn6 {
+    grid-area: btn6;
+}
+
+.btn5 {
+    grid-area: btn5;
+}
+
+.btn4 {
+    grid-area: btn4;
+}
+
+.btn3 {
+    grid-area: btn3;
+}
+
+.btn2 {
+    grid-area: btn2;
+}
+
+.btn1 {
+    grid-area: btn1;
+}
+
+.btn0 {
+    grid-area: btn0;
+}
