@@ -17,4 +17,7 @@ export default defineConfig({
   },
   // we say it is reac poject, use react type things
   plugins: [TanStackRouterVite(), react()],
+  test: {
+    environment: "happy-dom",
+  },
 });
