@@ -23,6 +23,7 @@ test("gives null when first called", async () => {
   expect(result.current).toBeNull();
 });
 
+
 test("to call the API and give back the pizza of the day", async () => {
   fetch.mockResponseOnce(JSON.stringify(testPizza));
   const {result} = renderHook(() => usePizzaOfTheDay());
