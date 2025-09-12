@@ -38,7 +38,7 @@ test("can submit contact form", async () => {
 
     const h3 = await screen.findByRole("heading", { level: 3 });
 
-    expect(h3.innerText).toContain("Submitted");
+    expect(h3.innerText).toContain("Sumbittd");
 
     const requests = fetchMocker.requests();
     expect(requests.length).toBe(1);

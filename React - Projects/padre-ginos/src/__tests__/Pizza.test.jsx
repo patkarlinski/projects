@@ -25,10 +25,11 @@ test("alt test renders on Pizza image", async () => {
 });
 
 test("to have default image if none is provided", async () => {
+    //Render componente without src
     const screen = render (
        <Pizza name={"Cool Pizza"} description="super cool pizza" />,
     );
-
+    //Check if im is empty, the component add default img
     const img = screen.getByRole("img");
-    expect(img.scr).not.toBe("");
+    expect(img.src).not.toBe("");
 });
